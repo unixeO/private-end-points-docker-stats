@@ -94,6 +94,7 @@ def vpn():
 
     return {
         "stats_type": "vpn",
+        "foo": "bar",
         "vpn": {
             "ipsec_connections": num_ipsec,
             "openvpn_connections": num_openvpn
